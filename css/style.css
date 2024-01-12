@@ -1,1 +1,29 @@
 @import url(./normalize.css);
+
+:root {
+  /* Primary */
+  --primary-Bright-orange: hsl(31, 77%, 52%);
+  --primary-Dark-cyan: hsl(184, 100%, 22%);
+  --primary-Very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Neutral  first for paragraph and second for background, heading, buttons*/
+
+  --neutral-Transparent-white: hsla(0, 0%, 100%, 0.75);
+  --neutral-Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--neutral-Very-light-gray);
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Big Shoulders Display", sans-serif;
+}
