@@ -10,6 +10,11 @@
 
   --neutral-Transparent-white: hsla(0, 0%, 100%, 0.75);
   --neutral-Very-light-gray: hsl(0, 0%, 95%);
+
+  /* Font Family */
+
+  --lexend-deca: "Lexend Deca", sans-serif;
+  --big-shoulders: "Big Shoulders Display", sans-serif;
 }
 
 * {
@@ -23,12 +28,47 @@ html {
 }
 
 body {
+  font-size: 15px;
   background: var(--neutral-Very-light-gray);
-  font-family: "Lexend Deca", sans-serif;
-  font-family: "Big Shoulders Display", sans-serif;
 }
 
-/* .sedan-card {
+.sedan-card {
   margin: 2rem 2rem 0 2rem;
+  border-radius: 5px 5px 0 0;
   background: var(--primary-Bright-orange);
-} */
+}
+
+.sedan-img {
+  margin: 3.5rem;
+}
+
+.sedan-car-title {
+  margin: 0 3.5rem 3.5rem 3.5rem;
+  color: var(--neutral-Very-light-gray);
+  font-family: var(--big-shoulders);
+}
+
+.sedan-car-description {
+  color: var(--neutral-Transparent-white);
+  margin: 0 0 3.5rem 3.5rem;
+  padding-right: 1rem;
+  font-family: var(--lexend-deca);
+  width: 60%;
+}
+
+.sedan-btn {
+  width: 50%;
+  margin: 0 3.5rem 3.5rem 3.5rem;
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+  color: var(--primary-Bright-orange);
+  font-family: var(--lexend-deca);
+  cursor: pointer;
+}
+
+.sedan-btn:hover {
+  border: 2px solid var(--neutral-Transparent-white);
+  background: var(--primary-Bright-orange);
+  color: var(--neutral-Transparent-white);
+}
