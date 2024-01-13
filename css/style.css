@@ -136,3 +136,44 @@ body {
   color: var(--neutral-Transparent-white);
   border: 2px solid var(--neutral-Transparent-white);
 }
+
+/* Luxury Card  */
+
+.luxury-card {
+  margin: 0 2rem;
+  background: var(--primary-Very-dark-cyan);
+}
+
+.luxury-img {
+  margin: var(--img-margin);
+}
+
+.luxury-car-title {
+  font-family: var(--big-shoulders);
+  color: var(--neutral-Very-light-gray);
+  margin: var(--car-title-margin);
+}
+
+.luxury-car-description {
+  color: var(--neutral-Transparent-white);
+  width: var(--width-width);
+  margin: var(--description-margin);
+  font-family: var(--lexend-deca);
+}
+
+.luxury-btn {
+  border-radius: var(--border-radius);
+  border: var(--border-button);
+  color: var(--primary-Very-dark-cyan);
+  cursor: pointer;
+  font-family: var(--lexend-deca);
+  margin: var(--margin-button);
+  padding: var(--padding-button);
+  width: var(--width-button);
+}
+
+.luxury-btn:hover {
+  background: var(--primary-Very-dark-cyan);
+  border: 2px solid var(--neutral-Transparent-white);
+  color: var(--neutral-Transparent-white);
+}
