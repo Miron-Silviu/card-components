@@ -22,7 +22,8 @@ In this project was build a thee column cards components.
 
 ### Screenshot
 
-![] (image.png)
+[(<img width="555" alt="image" src="https://github.com/Miron-Silviu/card-components/assets/119732322/b9df570b-9892-4ada-911a-43c18d2c67e4">
+)]
 
 ### Links
 
