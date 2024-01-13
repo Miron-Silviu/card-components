@@ -190,7 +190,7 @@ body {
   }
   .cars-cards {
     display: flex;
-    margin: 0 15rem;
+    margin: 0 20%;
   }
   .sedan-card {
     margin-right: 0;
