@@ -22,7 +22,7 @@ In this project was build a thee column cards components.
 
 ### Screenshot
 
-[](image.png)
+[] (image.png)
 
 ### Links
 
