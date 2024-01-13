@@ -56,7 +56,7 @@ body {
 
 .sedan-card {
   margin: 2rem 2rem 0 2rem;
-  border-radius: 5px 5px 0 0;
+  border-radius: 7px 7px 0 0;
   background: var(--primary-Bright-orange);
 }
 
@@ -140,8 +140,9 @@ body {
 /* Luxury Card  */
 
 .luxury-card {
-  margin: 0 2rem;
+  margin: 0 2rem 2rem;
   background: var(--primary-Very-dark-cyan);
+  border-radius: 0 0 7px 7px;
 }
 
 .luxury-img {
