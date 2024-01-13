@@ -27,6 +27,14 @@
   /* DESCRIPTION */
   --width-width: 70%;
   --description-margin: 0 0 3.5rem 3.5rem;
+
+  /* Button*/
+
+  --margin-button: 0 3.5rem 3.5rem 3.5rem;
+  --border-radius: 50px;
+  --width-button: 50%;
+  --padding-button: 1rem;
+  --border-button: none;
 }
 
 * {
@@ -71,14 +79,14 @@ body {
 }
 
 .sedan-btn {
-  border-radius: 50px;
-  border: none;
+  margin: var(--margin-button);
+  padding: var(--padding-button);
+  border: var(--border-button);
+  border-radius: var(--border-radius);
+  width: var(--width-button);
   color: var(--primary-Bright-orange);
   cursor: pointer;
   font-family: var(--lexend-deca);
-  margin: 0 3.5rem 3.5rem 3.5rem;
-  padding: 1rem;
-  width: 50%;
 }
 
 .sedan-btn:hover {
@@ -110,4 +118,21 @@ body {
   margin: var(--description-margin);
   font-family: var(--lexend-deca);
   color: var(--neutral-Transparent-white);
+}
+
+.suv-btn {
+  border-radius: var(--border-radius);
+  margin: var(--margin-button);
+  padding: var(--padding-button);
+  border: var(--border-button);
+  width: var(--width-button);
+  color: var(--primary-Dark-cyan);
+  cursor: pointer;
+  font-family: var(--lexend-deca);
+}
+
+.suv-btn:hover {
+  background: var(--primary-Dark-cyan);
+  color: var(--neutral-Transparent-white);
+  border: 2px solid var(--neutral-Transparent-white);
 }
