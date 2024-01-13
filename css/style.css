@@ -26,7 +26,7 @@
 
   /* DESCRIPTION */
   --width-width: 70%;
-  --description-margin: 0 0 3.5rem 3.5rem;
+  --description-margin: 0 0 4.5rem 3.5rem;
 
   /* Button*/
 
@@ -53,9 +53,11 @@ body {
 }
 
 /* Sedan Card */
-
+.cars-cards {
+  margin: 2rem 0;
+}
 .sedan-card {
-  margin: 2rem 2rem 0 2rem;
+  margin: 0 2rem 0 2rem;
   border-radius: 7px 7px 0 0;
   background: var(--primary-Bright-orange);
 }
@@ -79,14 +81,14 @@ body {
 }
 
 .sedan-btn {
-  margin: var(--margin-button);
-  padding: var(--padding-button);
-  border: var(--border-button);
   border-radius: var(--border-radius);
-  width: var(--width-button);
+  border: var(--border-button);
   color: var(--primary-Bright-orange);
   cursor: pointer;
   font-family: var(--lexend-deca);
+  margin: var(--margin-button);
+  padding: var(--padding-button);
+  width: var(--width-button);
 }
 
 .sedan-btn:hover {
@@ -122,13 +124,13 @@ body {
 
 .suv-btn {
   border-radius: var(--border-radius);
-  margin: var(--margin-button);
-  padding: var(--padding-button);
   border: var(--border-button);
-  width: var(--width-button);
   color: var(--primary-Dark-cyan);
   cursor: pointer;
   font-family: var(--lexend-deca);
+  margin: var(--margin-button);
+  padding: var(--padding-button);
+  width: var(--width-button);
 }
 
 .suv-btn:hover {
@@ -140,7 +142,7 @@ body {
 /* Luxury Card  */
 
 .luxury-card {
-  margin: 0 2rem 2rem;
+  margin: 0 2rem;
   background: var(--primary-Very-dark-cyan);
   border-radius: 0 0 7px 7px;
 }
@@ -177,4 +179,27 @@ body {
   background: var(--primary-Very-dark-cyan);
   border: 2px solid var(--neutral-Transparent-white);
   color: var(--neutral-Transparent-white);
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .cars-cards {
+    display: flex;
+    margin: 0 15rem;
+  }
+  .sedan-card {
+    margin-right: 0;
+  }
+  .suv-card {
+    margin: 0;
+  }
+  .luxury-card {
+    margin-left: 0;
+    border-radius: 0;
+  }
 }
