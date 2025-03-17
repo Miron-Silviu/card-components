@@ -2,13 +2,16 @@
 
 ## Table of contents
 
-- [Overview](#overview)
+   - [Links](#links)
+   - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
+  - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+
+  ## Links
+[![DEPLOYMENT](https://github.com/Miron-Silviu/Guess-my-Number/blob/main/images/Frame%201.png)](https://miron-silviu.github.io/card-components/)
 
 ## Overview
 
@@ -25,9 +28,7 @@ In this project was build a thee column cards components.
 <img width="555" alt="image" src="https://github.com/Miron-Silviu/card-components/assets/119732322/b9df570b-9892-4ada-911a-43c18d2c67e4">
 
 
-# LINK
 
-- [VIEW DEMO](https://miron-silviu.github.io/card-components/)
 
 ## My process
 
